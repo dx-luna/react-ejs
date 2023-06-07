@@ -34,7 +34,7 @@ function readFileInFolder(dir) {
 }
 export default function pluginEjs() {
   return {
-    name: "noob-plugin",
+    name: "vite-ejs-plugin",
     configResolved(e) {
       readFileInFolder(e.envDir);
     },

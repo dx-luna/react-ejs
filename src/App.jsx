@@ -1,8 +1,7 @@
 import React from "react";
-import { Import, Render } from "./react-ejs";
+import Router from "./sample/router";
 function App() {
-  let people = ["bob", "alice", "alex", "luna"];
-  return <Render path="src/react-ejs/test.ejs" data={{ data: people }} />;
+  return <Router />;
 }
 
 export default App;
