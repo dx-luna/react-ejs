@@ -21,5 +21,5 @@ export default defineConfig({
   ],
 });
 
-// output -> publish/src/*.ejs
+// output -> public/src/*.ejs
 ```
