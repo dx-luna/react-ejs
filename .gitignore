@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 secret-folder
-/public/src
+public/src
 dist
 dist-ssr
 *.local

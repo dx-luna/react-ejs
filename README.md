@@ -20,4 +20,6 @@ export default defineConfig({
     pluginEjs()
   ],
 });
+
+// output -> publish/src/*.ejs
 ```
